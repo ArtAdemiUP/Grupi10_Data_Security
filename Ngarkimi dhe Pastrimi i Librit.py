@@ -9,3 +9,9 @@ def ngarko_dhe_pastro_librin(emri_fajllit):
                     "Ne po mesojmë se si te kodojme mesazhe sekrete duke perdorur "
                     "metoda te vjetra por efikase si kjo e Beale cipher.")
         print(f"[!] U krijua nje skedar provizor '{emri_fajllit}' per testim.")
+          with open(emri_fajllit, 'r', encoding='utf-8') as f:
+        teksti = f.read()
+
+    tabela = str.maketrans('', '', string.punctuation)
+    fjalet = teksti.translate(tabela).split()
+    return fjalet
