@@ -10,3 +10,5 @@ Beale Cipher është një formë e "Shifrës së Librit". Siguria e tij bazohet 
 * **Homophonic Substitution:** E njëjta shkronjë mund të kodohet me numra të ndryshëm, duke e bërë rezistent ndaj analizës së frekuencës.
 * **Dynamic Key:** Çelësi (libri) mund të ndërrohet lehtësisht duke zëvendësuar skedarin `libri.txt`.
 * **Clean Code:** Kodi është i ndarë në module logjike për menaxhim më të lehtë.
+
+* Per ekzekutim te projektit preferohet qe files te ruhen me nje skript te vetme beale.py brenda nje folderi dhe brenda tij te ruhet libri me emer libri.txt ose te ruhet komplet repository si ZIP.
